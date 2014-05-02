@@ -1,0 +1,20 @@
+{
+  "name": "parafocus",
+  "version": "0.0.0",
+  "description": "text reader that puts the focus on each paragraph",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benatkin/parafocus.git"
+  },
+  "keywords": [
+    "reader"
+  ],
+  "author": "Ben Atkin <ben@benatkin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benatkin/parafocus/issues"
+  },
+  "homepage": "https://github.com/benatkin/parafocus",
+  "devDependencies": {},
+  "private": true
+}

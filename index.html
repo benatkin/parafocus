@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="parafocus" lang="en">
+  <head>
+    <title>parafocus</title>
+    <link rel="stylesheet" type="text/css" href="/parafocus.css" />
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/parafocus.js"></script>
+  </head>
+  <body ng-controller="ParaFocusCtrl" ng-keydown="keydown($event)">
+    <div class="document">
+      <div class="progress">{{ current + 1 }} / {{ paras.length }}</div>
+      <p ng-repeat="para in paras" ng-show="$index >= start && $index <= end" ng-class="{ current: $index == current }">{{para}}</p>
+    </div>
+  </body>
+</html>
